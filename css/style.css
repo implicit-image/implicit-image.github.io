@@ -1,7 +1,9 @@
 * {
-    background-color: #1f1f1f;
     color: #f1f1f1;
     font-family: Courier;
+}
+html {
+    background-image: url("../resources/bg.jpg");
 }
 
 body {
@@ -9,9 +11,28 @@ body {
     padding-right: 25%;
 }
 
+body * {
+    background-color: #1f1f1f;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    height: 5em;
+}
+
+.socials li {
+    text-decoration: underline;
+}
+
 .flex-container {
     display: flex;
     padding: unset;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .flex-ct-cl {
@@ -33,20 +54,27 @@ ul {
 }
 
 .content-block {
-    margin: 1em 3em 0em 3em;
+    margin: .5em 3em .5em 3em;
     padding: 2em;
     width: inherit;
+    border:  #4f4f4f solid 3px;
 }
 
 .project-entry {
     flex-wrap: wrap;
+    border:  #4f4f4f solid 3px;
+    padding: 0.5em;
+    margin: 0.5em;
 }
 
-.project-desc {
+.project-entry p {
     margin: 1em;
     padding: 1em;
 }
 
+.project-entry:hover * {
+    font-weight: bold;
+}
 
 .controls {
     padding: 1em 5em 1em 5em;
@@ -71,5 +99,5 @@ a:hover {
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: none;
 }
