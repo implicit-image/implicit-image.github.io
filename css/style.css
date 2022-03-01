@@ -1,18 +1,15 @@
 * {
     color: #f1f1f1;
     font-family: Courier;
-}
-body {
-    background-image: url("../resources/bg.jpg");
+    background-color: #1f1f1f;
 }
 
 body {
-    padding-left: 25%;
-    padding-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 body * {
-    background-color: #1f1f1f;
     height: 100%;
 }
 
@@ -57,7 +54,6 @@ ul {
     margin: .5em 3em .5em 3em;
     padding: 2em;
     width: inherit;
-    border:  #4f4f4f solid 3px;
 }
 
 .project-entry {
@@ -65,6 +61,7 @@ ul {
     border:  #4f4f4f solid 3px;
     padding: 0.5em;
     margin: 0.5em;
+    width: 80%;
 }
 
 .project-entry p {
@@ -86,9 +83,15 @@ ul {
     margin: 1em;
 }
 
-.skills li {
+.skill {
     font-size: 200%;
 }
+
+.skill img {
+    width: 48px;
+    height: 48px;
+}
+
 
 a:active {
     font-weight: bold;
