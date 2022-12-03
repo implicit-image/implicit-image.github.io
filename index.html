@@ -1,92 +1,103 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Implicit image</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-  </head>
-  <body>
-    <nav class="flex-container">
-      <ul>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Implicit image</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+</head>
+
+<body>
+  <nav class="flex-container">
+    <ul>
+    </ul>
+  </nav>
+  <main class="flex-container flex-ct-cl">
+    <div class="content-block">
+      <h2>About me</h2>
+      <p>
+        I'm 23 years old web developer looking to enter the industry.
+      </p>
+      <ul class="hor-list flex-container socials">
+        <li>
+          <a href="https://github.com/implicit-image">Github</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/blażej-niewiadomski-820612219/">Linkedin</a>
+        </li>
       </ul>
-    </nav>
-    <main class="flex-container flex-ct-cl">
-      <div class="content-block">
-        <h2>About me</h2>
-        <p>
-          I'm 22 years old web developer looking to enter the industry.
-        </p>
-        <ul class="hor-list flex-container socials">
+    </div>
+    <div class="content-block">
+      <h2>Skills</h2>
+      <ul class="hor-list skills flex-container">
+        <li class="skill flex-container">
+          <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
+        </li>
+        <li class="skill">
+          <img src="https://img.icons8.com/color/50/000000/css3.png" />
+        </li>
+        <li class="skill">
+          <img src="https://img.icons8.com/color/50/000000/javascript--v1.png" />
+        </li>
+        <li class="skill">
+          <img src="https://img.icons8.com/plasticine/50/000000/react.png" />
+        </li>
+        <li class="skill">
+          <img
+            src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-arch-linux-composed-of-nonfree-and-open-source-software-logo-shadow-tal-revivo.png" />
+        </li>
+        <li class="skill">
+          <img src="https://img.icons8.com/color/50/000000/haskell.png" />
+        </li>
+      </ul>
+    </div>
+    <div class="content-block">
+      <h2>Projects</h2>
+      <p>
+      <ul class="hor-list flex-container">
+        <a href="https://github.com/implicit-image/task-manager-api" class="project-entry">
           <li>
-            <a href="https://github.com/implicit-image">Github</a>
+            Task manager API
+            <p>
+              REST API using Express.js and mongooose to store and manage to-do notes on mongodb Atlas.
+            </p>
           </li>
+        </a>
+        <a href="https://github.com/implicit-image/implicit-image.github.io" class="project-entry">
           <li>
-            <a href="https://www.linkedin.com/in/blażej-niewiadomski-820612219/">Linkedin</a>
+            This page
+            <p>
+              Minimal personal webpage.
+            </p>
           </li>
-        </ul>
+        </a>
+        <a href="https://github.com/implicit-image/robofriends" class="project-entry">
+          <li>
+            Robofriends app
+            <p>
+              A basic project from Zero To Mastery course.
+            </p>
+          </li>
+        </a>
+      </ul>
+      </p>
+      <div>
+        <input id="test-button" type="button" name="test" value="0" />
+        <input id="text-color-slider" type="range" value="0" />
+
       </div>
-      <div class="content-block">
-        <h2>Skills</h2>
-        <ul class="hor-list skills flex-container">
-          <li class="skill flex-container">
-            <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
-          </li>
-          <li class="skill">
-            <img src="https://img.icons8.com/color/50/000000/css3.png"/>
-          </li>
-          <li class="skill">
-            <img src="https://img.icons8.com/color/50/000000/javascript--v1.png"/>
-          </li>
-          <li class="skill">
-            <img src="https://img.icons8.com/plasticine/50/000000/react.png"/>
-          </li>
-          <li class="skill">
-            <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-arch-linux-composed-of-nonfree-and-open-source-software-logo-shadow-tal-revivo.png"/>
-          </li>
-          <li class="skill">
-            <img src="https://img.icons8.com/color/50/000000/haskell.png"/>
-          </li>
-        </ul>
-      </div>
-      <div class="content-block">
-        <h2>Projects</h2>
-        <p>
-          <ul class="hor-list flex-container">
-            <a href="https://github.com/implicit-image/task-manager-api" class="project-entry">
-              <li>
-                Task manager API
-                <p>
-                  REST API using Express.js and mongooose to store and manage to-do notes on mongodb Atlas.
-                </p>
-              </li>
-            </a>
-            <a href="https://github.com/implicit-image/implicit-image.github.io" class="project-entry">
-              <li>
-                This page
-                <p>
-                  Minimal personal webpage.
-                </p>
-              </li>
-            </a>
-            <a href="https://github.com/implicit-image/robofriends" class="project-entry">
-              <li>
-                Robofriends app
-                <p>
-                  A basic project from Zero To Mastery course.
-                </p>
-              </li>
-            </a>
-          </ul>
-        </p>
-      </div>
-      <footer>
-        <p>Icons from <a href="https://icons8.com">icons8</a></p>
-      </footer>
-    </main>
-  </body>
+    </div>
+    <footer>
+      <p>Icons from <a href="https://icons8.com">icons8</a></p>
+    </footer>
+  </main>
+</body>
+<script src="./js/controls.js">
+</script>
+
 </html>
