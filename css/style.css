@@ -21,6 +21,26 @@ footer {
     height: 5em;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
 .socials li {
     text-decoration: underline;
 }
@@ -45,11 +65,6 @@ footer {
 .hor-list li {
     display: inline;
 }
-
-ul {
-    list-style-type: none;
-}
-
 .content-block {
     margin: .5em 3em .5em 3em;
     padding: 2em;
@@ -93,14 +108,3 @@ ul {
 }
 
 
-a:active {
-    font-weight: bold;
-}
-
-a:hover {
-    font-weight: bold;
-}
-
-a {
-    text-decoration: none;
-}
