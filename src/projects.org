@@ -1,0 +1,8 @@
+#+title: Complete project notes
+#+options: toc:nil
+
+* Project notes
+
+- project 1 :: project description here. It is long enough to wrap around making it useful for debugging displyay issues but short enough to not bore the reader with useless details that can be read at:
+  + [[file:project-notes/project1.org][notes]]
+  + link to project

@@ -1,0 +1,10 @@
+#+title: implicit image
+#+export_file_name: index
+#+options: toc:nil
+
+* About me
+I like reasoning and writing about computing.
+- you can read my writing [[file:writing.org][here]]
+- detailed project notes are [[file:projects.org][here]]
+- my github - [[https://github.com/implicit-image][link]]
+- my resume is [[file:resume.org][here]]

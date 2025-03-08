@@ -1,0 +1,10 @@
+#+TITLE: Sitemap for project posts
+#+OPTIONS: toc:nil
+
+- [[file:projects.org][Complete project notes]]
+- [[file:index.org][implicit image]]
+- [[file:theindex.org][Index]]
+- [[file:resume.org][my resume]]
+- [[file:posts/the_beginning.org][The beginning]]
+- [[file:project-notes/project1.org][Project 1 notes]]
+- [[file:writing.org][writing]]

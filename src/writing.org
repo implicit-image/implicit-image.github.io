@@ -1,0 +1,4 @@
+#+title:
+#+options: toc:nil
+
+* [[file:posts/test-post.org][post]]

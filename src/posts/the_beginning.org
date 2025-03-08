@@ -1,0 +1,11 @@
+#+title: The beginning
+#+date: 2025-01-19
+#+export_file_name: the_beginning
+
+* Why
+After toying around for a while I decided to setup this website as a kind of
+
+* 4 causes ?
+Aristotle introduces 4 causes
+
+* Whats next

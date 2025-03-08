@@ -1,0 +1,23 @@
+#+title: Project 1 notes
+#+tags: c:c++:oop
+
+* dsfagfsgfdag
+asgfgdfagfdagdfg
+adfsdfg
+
+#+caption: code in c
+#+begin_src c++
+
+class A {
+  __constructor() {
+      return 1;
+  }
+};
+
+int main() {
+  for (auto a : {1, 2, 3, 4}) {
+    int a = 1 + 4;
+    printf("safddsf %d", a);
+  }
+}
+#+end_src

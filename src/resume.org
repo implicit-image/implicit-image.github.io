@@ -1,0 +1,9 @@
+#+title: my resume
+
+
+* TODO fill out the resume
+** personal info
+** experience
+** education
+** achievments
+** goals
